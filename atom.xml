@@ -2,11 +2,11 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://hamsali2.github.io</id>
     <title>hamsali的小站</title>
-    <updated>2021-04-18T07:07:11.292Z</updated>
+    <updated>2021-04-18T07:21:53.452Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://hamsali2.github.io"/>
     <link rel="self" href="https://hamsali2.github.io/atom.xml"/>
-    <subtitle>记录成长历程</subtitle>
+    <subtitle>记录自己的成长历程，让其他人少走弯路。</subtitle>
     <logo>https://hamsali2.github.io/images/avatar.png</logo>
     <icon>https://hamsali2.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, hamsali的小站</rights>
@@ -96,6 +96,7 @@
         </link>
         <updated>2021-04-18T04:57:43.000Z</updated>
         <summary type="html"><![CDATA[<h1 id="next-主题"><a href="http://theme-next.iissnan.com/">next 主题</a></h1>
+<p>[主题] [皮肤]</p>
 <h2 id="使用">使用</h2>
 <pre><code class="language-php+HTML">theme: next
 
@@ -122,6 +123,7 @@ normal，night， night blue， night bright， night eighties：
 </code></pre>
 ]]></summary>
         <content type="html"><![CDATA[<h1 id="next-主题"><a href="http://theme-next.iissnan.com/">next 主题</a></h1>
+<p>[主题] [皮肤]</p>
 <h2 id="使用">使用</h2>
 <pre><code class="language-php+HTML">theme: next
 
@@ -209,9 +211,9 @@ normal，night， night blue， night bright， night eighties：
 <p>有实时反馈，以后的说明文档也要写成那样。</p>
 <h1 id="点击特效">点击特效</h1>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4414119"><label class="task-list-item-label" for="task-item-4414119"> 点击产生星星</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9691174"><label class="task-list-item-label" for="task-item-9691174"> 一个拖尾效果</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5946152"><label class="task-list-item-label" for="task-item-5946152"> 粒子吸引效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2395607"><label class="task-list-item-label" for="task-item-2395607"> 点击产生星星</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9808554"><label class="task-list-item-label" for="task-item-9808554"> 一个拖尾效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9426459"><label class="task-list-item-label" for="task-item-9426459"> 粒子吸引效果</label></li>
 </ul>
 ]]></summary>
         <content type="html"><![CDATA[<h1 id="网站效果">网站效果</h1>
@@ -219,9 +221,9 @@ normal，night， night blue， night bright， night eighties：
 <p>有实时反馈，以后的说明文档也要写成那样。</p>
 <h1 id="点击特效">点击特效</h1>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-4414119"><label class="task-list-item-label" for="task-item-4414119"> 点击产生星星</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9691174"><label class="task-list-item-label" for="task-item-9691174"> 一个拖尾效果</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5946152"><label class="task-list-item-label" for="task-item-5946152"> 粒子吸引效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2395607"><label class="task-list-item-label" for="task-item-2395607"> 点击产生星星</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9808554"><label class="task-list-item-label" for="task-item-9808554"> 一个拖尾效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9426459"><label class="task-list-item-label" for="task-item-9426459"> 粒子吸引效果</label></li>
 </ul>
 ]]></content>
     </entry>
