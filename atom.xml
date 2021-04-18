@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://gridea.github.io</id>
+    <id>https://hamsali2.github.io</id>
     <title>hamsali的小站</title>
-    <updated>2021-04-18T06:37:48.629Z</updated>
+    <updated>2021-04-18T07:00:30.917Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://gridea.github.io"/>
-    <link rel="self" href="https://gridea.github.io/atom.xml"/>
+    <link rel="alternate" href="https://hamsali2.github.io"/>
+    <link rel="self" href="https://hamsali2.github.io/atom.xml"/>
     <subtitle>记录成长历程</subtitle>
-    <logo>https://gridea.github.io/images/avatar.png</logo>
-    <icon>https://gridea.github.io/favicon.ico</icon>
+    <logo>https://hamsali2.github.io/images/avatar.png</logo>
+    <icon>https://hamsali2.github.io/favicon.ico</icon>
     <rights>All rights reserved 2021, hamsali的小站</rights>
     <entry>
         <title type="html"><![CDATA[工作]]></title>
-        <id>https://gridea.github.io/post/gong-zuo/</id>
-        <link href="https://gridea.github.io/post/gong-zuo/">
+        <id>https://hamsali2.github.io/post/gong-zuo/</id>
+        <link href="https://hamsali2.github.io/post/gong-zuo/">
         </link>
         <updated>2021-04-18T05:01:13.000Z</updated>
         <summary type="html"><![CDATA[<h1 id="工作">工作</h1>
@@ -41,8 +41,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[工具池]]></title>
-        <id>https://gridea.github.io/post/gong-ju-chi/</id>
-        <link href="https://gridea.github.io/post/gong-ju-chi/">
+        <id>https://hamsali2.github.io/post/gong-ju-chi/</id>
+        <link href="https://hamsali2.github.io/post/gong-ju-chi/">
         </link>
         <updated>2021-04-18T05:00:31.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="工具池">工具池</h2>
@@ -68,8 +68,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[存在的问题]]></title>
-        <id>https://gridea.github.io/post/cun-zai-de-wen-ti/</id>
-        <link href="https://gridea.github.io/post/cun-zai-de-wen-ti/">
+        <id>https://hamsali2.github.io/post/cun-zai-de-wen-ti/</id>
+        <link href="https://hamsali2.github.io/post/cun-zai-de-wen-ti/">
         </link>
         <updated>2021-04-18T04:59:24.000Z</updated>
         <summary type="html"><![CDATA[<p>主要记录一些问题，后面还需要解决。</p>
@@ -91,8 +91,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[next 主题]]></title>
-        <id>https://gridea.github.io/post/next-zhu-ti/</id>
-        <link href="https://gridea.github.io/post/next-zhu-ti/">
+        <id>https://hamsali2.github.io/post/next-zhu-ti/</id>
+        <link href="https://hamsali2.github.io/post/next-zhu-ti/">
         </link>
         <updated>2021-04-18T04:57:43.000Z</updated>
         <summary type="html"><![CDATA[<h1 id="next-主题"><a href="http://theme-next.iissnan.com/">next 主题</a></h1>
@@ -150,8 +150,8 @@ normal，night， night blue， night bright， night eighties：
     </entry>
     <entry>
         <title type="html"><![CDATA[研究生笔记]]></title>
-        <id>https://gridea.github.io/post/yan-jiu-sheng-bi-ji/</id>
-        <link href="https://gridea.github.io/post/yan-jiu-sheng-bi-ji/">
+        <id>https://hamsali2.github.io/post/yan-jiu-sheng-bi-ji/</id>
+        <link href="https://hamsali2.github.io/post/yan-jiu-sheng-bi-ji/">
         </link>
         <updated>2021-04-18T04:56:38.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="实验">实验</h2>
@@ -167,8 +167,8 @@ normal，night， night blue， night bright， night eighties：
     </entry>
     <entry>
         <title type="html"><![CDATA[文件管理技巧]]></title>
-        <id>https://gridea.github.io/post/wen-jian-guan-li-ji-qiao/</id>
-        <link href="https://gridea.github.io/post/wen-jian-guan-li-ji-qiao/">
+        <id>https://hamsali2.github.io/post/wen-jian-guan-li-ji-qiao/</id>
+        <link href="https://hamsali2.github.io/post/wen-jian-guan-li-ji-qiao/">
         </link>
         <updated>2021-04-18T04:54:51.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="文件管理技巧">文件管理技巧</h2>
@@ -200,8 +200,8 @@ normal，night， night blue， night bright， night eighties：
     </entry>
     <entry>
         <title type="html"><![CDATA[网站特效]]></title>
-        <id>https://gridea.github.io/post/wang-zhan-te-xiao/</id>
-        <link href="https://gridea.github.io/post/wang-zhan-te-xiao/">
+        <id>https://hamsali2.github.io/post/wang-zhan-te-xiao/</id>
+        <link href="https://hamsali2.github.io/post/wang-zhan-te-xiao/">
         </link>
         <updated>2021-04-18T04:52:34.000Z</updated>
         <summary type="html"><![CDATA[<h1 id="网站效果">网站效果</h1>
@@ -209,9 +209,9 @@ normal，night， night blue， night bright， night eighties：
 <p>有实时反馈，以后的说明文档也要写成那样。</p>
 <h1 id="点击特效">点击特效</h1>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6946869"><label class="task-list-item-label" for="task-item-6946869"> 点击产生星星</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5459418"><label class="task-list-item-label" for="task-item-5459418"> 一个拖尾效果</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-226565"><label class="task-list-item-label" for="task-item-226565"> 粒子吸引效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2453243"><label class="task-list-item-label" for="task-item-2453243"> 点击产生星星</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6336578"><label class="task-list-item-label" for="task-item-6336578"> 一个拖尾效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8862171"><label class="task-list-item-label" for="task-item-8862171"> 粒子吸引效果</label></li>
 </ul>
 ]]></summary>
         <content type="html"><![CDATA[<h1 id="网站效果">网站效果</h1>
@@ -219,16 +219,16 @@ normal，night， night blue， night bright， night eighties：
 <p>有实时反馈，以后的说明文档也要写成那样。</p>
 <h1 id="点击特效">点击特效</h1>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6946869"><label class="task-list-item-label" for="task-item-6946869"> 点击产生星星</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-5459418"><label class="task-list-item-label" for="task-item-5459418"> 一个拖尾效果</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-226565"><label class="task-list-item-label" for="task-item-226565"> 粒子吸引效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2453243"><label class="task-list-item-label" for="task-item-2453243"> 点击产生星星</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6336578"><label class="task-list-item-label" for="task-item-6336578"> 一个拖尾效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8862171"><label class="task-list-item-label" for="task-item-8862171"> 粒子吸引效果</label></li>
 </ul>
 ]]></content>
     </entry>
     <entry>
         <title type="html"><![CDATA[anaconda]]></title>
-        <id>https://gridea.github.io/post/anaconda/</id>
-        <link href="https://gridea.github.io/post/anaconda/">
+        <id>https://hamsali2.github.io/post/anaconda/</id>
+        <link href="https://hamsali2.github.io/post/anaconda/">
         </link>
         <updated>2021-04-18T04:49:07.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="环境">环境</h2>
@@ -300,8 +300,8 @@ c.NotebookApp.notebook_dir = 'E:\PY'<br>
     </entry>
     <entry>
         <title type="html"><![CDATA[hexo 使用]]></title>
-        <id>https://gridea.github.io/post/hexo-shi-yong/</id>
-        <link href="https://gridea.github.io/post/hexo-shi-yong/">
+        <id>https://hamsali2.github.io/post/hexo-shi-yong/</id>
+        <link href="https://hamsali2.github.io/post/hexo-shi-yong/">
         </link>
         <updated>2021-04-18T04:48:08.000Z</updated>
         <summary type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
@@ -325,8 +325,8 @@ hexo g -d
     </entry>
     <entry>
         <title type="html"><![CDATA[模板]]></title>
-        <id>https://gridea.github.io/post/mo-ban/</id>
-        <link href="https://gridea.github.io/post/mo-ban/">
+        <id>https://hamsali2.github.io/post/mo-ban/</id>
+        <link href="https://hamsali2.github.io/post/mo-ban/">
         </link>
         <updated>2021-04-18T04:47:33.000Z</updated>
         <summary type="html"><![CDATA[<h2 id="标题">标题</h2>
