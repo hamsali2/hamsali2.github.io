@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>anaconda | hamsali的小站</title>
+<meta name="description" content="记录成长历程">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://gridea.github.io/favicon.ico?v=1618722106091">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://gridea.github.io/styles/main.css">
+
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://gridea.github.io">hamsali的小站</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>anaconda</h1>
+            <p class="article-meta">
+              2021-04-18
+              
+                <a href="https://gridea.github.io/tag/bcLTL670A/" class="badge success">
+                  经验分享
+                </a>
+              
+            </p>
+            
+              <img src="https://gridea.github.io/post-images/anaconda.jpg" alt="anaconda">
+            
+            <div class="post-content">
+              <h2 id="环境">环境</h2>
+<p><a href="https://www.cnblogs.com/littlepage/p/11961208.html">参考原文：</a></p>
+<p>添加清华镜像</p>
+<pre><code class="language-python">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+
+</code></pre>
+<h2 id="更改目录">更改目录</h2>
+<p>改配置文件：</p>
+<pre><code class="language-python">jupyter notebook --generate-config
+</code></pre>
+<p>可以看到jupyter_notebook_config.py文件路径，打开该文件：</p>
+<figure data-type="image" tabindex="1"><img src="https://img2018.cnblogs.com/blog/94829/201901/94829-20190110114650373-1815757905.png" alt="img" loading="lazy"></figure>
+<p>查找参数c.NotebookApp.notebook_dir并设置其路径，设置完成后并保存退出，如上图所示。</p>
+<p>将<br>
+#c.NotebookApp.notebook_dir = ''<br>
+改为<br>
+c.NotebookApp.notebook_dir = 'your path'<br>
+我改成了我自己的路径<br>
+c.NotebookApp.notebook_dir = 'E:\PY'<br>
+我已经将文件建好并创建了一个txt文件</p>
+<p>注意：第一、文件夹必须先创建好，不然会jupyter初始化时会找不到目录<br>
+第二、要取消注释，c前面的#要去掉。<br>
+第三、要注意文件名不可以是数字</p>
+<p>保存并关闭。<br>
+现在可以在Anaconda Navigator中打开</p>
+<p>希望用快捷方式打开</p>
+<p>在jupyter notebook快捷方式的属性里要删掉%USERPROFILE%<br>
+%USERPROFILE%会使得jupyter打开固定地址。</p>
+<p>成功打开</p>
+<p><a href="https://blog.csdn.net/weixin_36292173/article/details/76209839">原文链接</a></p>
+<!-- more -->
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://gridea.github.io/post/hexo-shi-yong/">
+                <h3 class="post-title">
+                  hexo 使用
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+      </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://gridea.github.io/images/avatar.png?v=1618722106091" class="no-responsive avatar">
+    <div class="text-muted">记录成长历程</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/gong-zuo/">工作</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/gong-ju-chi/">工具池</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/cun-zai-de-wen-ti/">存在的问题</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/next-zhu-ti/">next 主题</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/yan-jiu-sheng-bi-ji/">研究生笔记</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/wen-jian-guan-li-ji-qiao/">文件管理技巧</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/wang-zhan-te-xiao/">网站特效</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/anaconda/">anaconda</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/hexo-shi-yong/">hexo 使用</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/mo-ban/">模板</a>
+            </li>
+          
+        
+          
+        
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://gridea.github.io/tag/wwf0GlN9E/" class="badge secondary">
+          日常
+        </a>
+      
+        <a href="https://gridea.github.io/tag/bcLTL670A/" class="badge ">
+          经验分享
+        </a>
+      
+        <a href="https://gridea.github.io/tag/6IdEHxS2n/" class="badge secondary">
+          遇到的坑
+        </a>
+      
+        <a href="https://gridea.github.io/tag/ZKWWffrUE/" class="badge secondary">
+          next主题
+        </a>
+      
+        <a href="https://gridea.github.io/tag/5kqlgsszX/" class="badge secondary">
+          遇到的问题
+        </a>
+      
+        <a href="https://gridea.github.io/tag/Zu37xgsOX/" class="badge warning">
+          Gridea
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://gridea.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
+  </body>
+</html>

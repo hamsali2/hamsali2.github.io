@@ -1,47 +1,339 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://gridea.github.io</id>
-    <title>Gridea</title>
-    <updated>2021-04-18T04:15:56.029Z</updated>
+    <title>hamsali的小站</title>
+    <updated>2021-04-18T05:01:52.291Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://gridea.github.io"/>
     <link rel="self" href="https://gridea.github.io/atom.xml"/>
-    <subtitle>温故而知新</subtitle>
+    <subtitle>记录成长历程</subtitle>
     <logo>https://gridea.github.io/images/avatar.png</logo>
     <icon>https://gridea.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2021, Gridea</rights>
+    <rights>All rights reserved 2021, hamsali的小站</rights>
     <entry>
-        <title type="html"><![CDATA[Hello Gridea]]></title>
-        <id>https://gridea.github.io/post/hello-gridea/</id>
-        <link href="https://gridea.github.io/post/hello-gridea/">
+        <title type="html"><![CDATA[工作]]></title>
+        <id>https://gridea.github.io/post/gong-zuo/</id>
+        <link href="https://gridea.github.io/post/gong-zuo/">
         </link>
-        <updated>2018-12-11T16:00:00.000Z</updated>
-        <summary type="html"><![CDATA[<p>👏  第一次使用 <strong>Gridea</strong> ！  静态博客写作客户端<br>
-✍️ 记录生活、心情、知识、笔记、创意... ...<br>
-#心情 #记录 #生活</p>
+        <updated>2021-04-18T05:01:13.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="工作">工作</h1>
+<ul>
+<li>华西绿舍</li>
+<li>三星10-12万</li>
+<li>中建西部建设</li>
+<li>华为有些非主营业务</li>
+<li>字节跳动</li>
+<li>融创</li>
+<li>陕煤</li>
+</ul>
 ]]></summary>
-        <content type="html"><![CDATA[<p>👏  第一次使用 <strong>Gridea</strong> ！  静态博客写作客户端<br>
-✍️ 记录生活、心情、知识、笔记、创意... ...<br>
-#心情 #记录 #生活</p>
-<!-- more -->
-<p><a href="https://github.com/getgridea/gridea">Github</a><br>
-<a href="https://gridea.dev/">Gridea 主页</a><br>
-<a href="http://fehey.com/">示例网站</a></p>
-<h2 id="特性">特性👇</h2>
-<p>📝  使用 <strong>Markdown</strong> 语法，插入图片。</p>
-<p>🌉  你可以给文章配上精美的封面图和在文章任意位置插入图片</p>
-<p>🏷️  你可以对文章进行标签分组</p>
-<p>📋  你可以自定义菜单，甚至可以创建外部链接菜单</p>
-<p>💻  你可以在 <strong>Windows</strong>，<strong>MacOS</strong> 或 <strong>Linux</strong> 设备上使用此客户端</p>
-<p>🌎  你可以使用 <strong>𝖦𝗂𝗍𝗁𝗎𝖻 𝖯𝖺𝗀𝖾𝗌</strong> 或 <strong>Coding Pages</strong> 向世界展示，未来将支持更多平台</p>
-<p>💬  你可以进行简单的配置，接入 <a href="https://github.com/gitalk/gitalk">Gitalk</a> 或 <a href="https://github.com/SukkaW/DisqusJS">DisqusJS</a> 评论系统</p>
-<p>🇬🇧  你可以使用<strong>中文简体</strong>或<strong>英语</strong></p>
-<p>🌁  你可以任意使用应用内默认主题或任意第三方主题，强大的主题自定义能力</p>
-<p>🖥  你可以自定义源文件夹，利用 OneDrive、百度网盘、iCloud、Dropbox 等进行多设备同步</p>
-<p>🌱 当然 <strong>Gridea</strong> 还很年轻，有很多不足，但请相信，它会不停向前 🏃</p>
-<p>未来，它一定会成为你离不开的伙伴</p>
-<p>尽情发挥你的才华吧！</p>
-<p>😘 Enjoy~</p>
+        <content type="html"><![CDATA[<h1 id="工作">工作</h1>
+<ul>
+<li>华西绿舍</li>
+<li>三星10-12万</li>
+<li>中建西部建设</li>
+<li>华为有些非主营业务</li>
+<li>字节跳动</li>
+<li>融创</li>
+<li>陕煤</li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[工具池]]></title>
+        <id>https://gridea.github.io/post/gong-ju-chi/</id>
+        <link href="https://gridea.github.io/post/gong-ju-chi/">
+        </link>
+        <updated>2021-04-18T05:00:31.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="工具池">工具池</h2>
+<p>author: hams Ali</p>
+<p>人并非工具的仆人，关键还是在于从事的工作。如宇航员用铅笔记录，也是一个牛逼的工具。</p>
+<p>工具无关贵贱，适合、迅洁地做好任务，才是最好的。</p>
+<h2 id="文档">文档：</h2>
+<p>office：word，excel，PPT；感觉office365的同步挺好的，基本可以满足所有要求。</p>
+<p>后面可以配合onedrive</p>
+<p>markdown，HTML，PDF，微信公众号编辑（135，秀米都比较好用）；<br>
+腾讯文档，飞书，有道云笔记，印象笔记</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="工具池">工具池</h2>
+<p>author: hams Ali</p>
+<p>人并非工具的仆人，关键还是在于从事的工作。如宇航员用铅笔记录，也是一个牛逼的工具。</p>
+<p>工具无关贵贱，适合、迅洁地做好任务，才是最好的。</p>
+<h2 id="文档">文档：</h2>
+<p>office：word，excel，PPT；感觉office365的同步挺好的，基本可以满足所有要求。</p>
+<p>后面可以配合onedrive</p>
+<p>markdown，HTML，PDF，微信公众号编辑（135，秀米都比较好用）；<br>
+腾讯文档，飞书，有道云笔记，印象笔记</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[存在的问题]]></title>
+        <id>https://gridea.github.io/post/cun-zai-de-wen-ti/</id>
+        <link href="https://gridea.github.io/post/cun-zai-de-wen-ti/">
+        </link>
+        <updated>2021-04-18T04:59:24.000Z</updated>
+        <summary type="html"><![CDATA[<p>主要记录一些问题，后面还需要解决。</p>
+<h1 id="github-已解决">GitHub 已解决</h1>
+<p><a href="https://github.com/hamsali">我的github:</a></p>
+<p>网址https://hamsali.github.io/</p>
+<p>个人网址更新问题，需要清除缓存。</p>
+<p>需要清理后上传，上传频率不能太高。更新比较多，容易出问题。</p>
+<p>有时候同步失败，只有同时运行才比较好。</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>主要记录一些问题，后面还需要解决。</p>
+<h1 id="github-已解决">GitHub 已解决</h1>
+<p><a href="https://github.com/hamsali">我的github:</a></p>
+<p>网址https://hamsali.github.io/</p>
+<p>个人网址更新问题，需要清除缓存。</p>
+<p>需要清理后上传，上传频率不能太高。更新比较多，容易出问题。</p>
+<p>有时候同步失败，只有同时运行才比较好。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[next 主题]]></title>
+        <id>https://gridea.github.io/post/next-zhu-ti/</id>
+        <link href="https://gridea.github.io/post/next-zhu-ti/">
+        </link>
+        <updated>2021-04-18T04:57:43.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="next-主题"><a href="http://theme-next.iissnan.com/">next 主题</a></h1>
+<h2 id="使用">使用</h2>
+<pre><code class="language-php+HTML">theme: next
+
+scheme: Pisces
+
+language: zh-Hans
+
+menu:
+  home: 首页
+  archives: 归档
+  categories: 分类
+  tags: 标签
+  about: 关于
+  search: 搜索
+  commonweal: 公益404
+  something: 有料
+
+avatar: /images/fig.jpg
+# http://example.com/avatar.png
+
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: normal
+normal，night， night blue， night bright， night eighties：
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="next-主题"><a href="http://theme-next.iissnan.com/">next 主题</a></h1>
+<h2 id="使用">使用</h2>
+<pre><code class="language-php+HTML">theme: next
+
+scheme: Pisces
+
+language: zh-Hans
+
+menu:
+  home: 首页
+  archives: 归档
+  categories: 分类
+  tags: 标签
+  about: 关于
+  search: 搜索
+  commonweal: 公益404
+  something: 有料
+
+avatar: /images/fig.jpg
+# http://example.com/avatar.png
+
+# https://github.com/chriskempson/tomorrow-theme
+highlight_theme: normal
+normal，night， night blue， night bright， night eighties：
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[研究生笔记]]></title>
+        <id>https://gridea.github.io/post/yan-jiu-sheng-bi-ji/</id>
+        <link href="https://gridea.github.io/post/yan-jiu-sheng-bi-ji/">
+        </link>
+        <updated>2021-04-18T04:56:38.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="实验">实验</h2>
+<p>最近实验结果不尽如意，需要重新规划下将来的方向。争取早日毕业​ 😂</p>
+<p>要开始准备小论文，大论文框架也整理下。4月二十几号，把财务记得报销下。</p>
+<p>虽然累，肯定值得。反正坚持记录，总会有收获的。</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="实验">实验</h2>
+<p>最近实验结果不尽如意，需要重新规划下将来的方向。争取早日毕业​ 😂</p>
+<p>要开始准备小论文，大论文框架也整理下。4月二十几号，把财务记得报销下。</p>
+<p>虽然累，肯定值得。反正坚持记录，总会有收获的。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[文件管理技巧]]></title>
+        <id>https://gridea.github.io/post/wen-jian-guan-li-ji-qiao/</id>
+        <link href="https://gridea.github.io/post/wen-jian-guan-li-ji-qiao/">
+        </link>
+        <updated>2021-04-18T04:54:51.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="文件管理技巧">文件管理技巧</h2>
+<ul>
+<li>本地文件先测试，多检查，让问题的频率低些。解决当前问题解决，少产生版本。</li>
+<li>做好文件的备份，同步和共享。</li>
+<li>多人做的时候，会有很多版本分支，需要权衡好，生成版本号。相当于文件传递，检查，归档。</li>
+<li>命名统一做好归类，知识体系-分类-文件名-关键词-版本号-作者-日期。</li>
+<li>善用搜索，可以是本地检索，也可以是上传后的标签筛选。</li>
+<li>定期管理文件，不要保存不需要的文件，简单最好。只整理20%的关键文件，其他的可以不保留或归到容纳箱</li>
+<li>同一目录的文件不要太多，容易检索不便。</li>
+<li>重点维护经常使用的文件，桌面可以增加快捷键。</li>
+</ul>
+<h1 id="其他说明">其他说明</h1>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="文件管理技巧">文件管理技巧</h2>
+<ul>
+<li>本地文件先测试，多检查，让问题的频率低些。解决当前问题解决，少产生版本。</li>
+<li>做好文件的备份，同步和共享。</li>
+<li>多人做的时候，会有很多版本分支，需要权衡好，生成版本号。相当于文件传递，检查，归档。</li>
+<li>命名统一做好归类，知识体系-分类-文件名-关键词-版本号-作者-日期。</li>
+<li>善用搜索，可以是本地检索，也可以是上传后的标签筛选。</li>
+<li>定期管理文件，不要保存不需要的文件，简单最好。只整理20%的关键文件，其他的可以不保留或归到容纳箱</li>
+<li>同一目录的文件不要太多，容易检索不便。</li>
+<li>重点维护经常使用的文件，桌面可以增加快捷键。</li>
+</ul>
+<h1 id="其他说明">其他说明</h1>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[网站特效]]></title>
+        <id>https://gridea.github.io/post/wang-zhan-te-xiao/</id>
+        <link href="https://gridea.github.io/post/wang-zhan-te-xiao/">
+        </link>
+        <updated>2021-04-18T04:52:34.000Z</updated>
+        <summary type="html"><![CDATA[<h1 id="网站效果">网站效果</h1>
+<p>切换的动画，比较动态的画面。</p>
+<p>有实时反馈，以后的说明文档也要写成那样。</p>
+<h1 id="点击特效">点击特效</h1>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9328568"><label class="task-list-item-label" for="task-item-9328568"> 点击产生星星</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-258852"><label class="task-list-item-label" for="task-item-258852"> 一个拖尾效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6835382"><label class="task-list-item-label" for="task-item-6835382"> 粒子吸引效果</label></li>
+</ul>
+]]></summary>
+        <content type="html"><![CDATA[<h1 id="网站效果">网站效果</h1>
+<p>切换的动画，比较动态的画面。</p>
+<p>有实时反馈，以后的说明文档也要写成那样。</p>
+<h1 id="点击特效">点击特效</h1>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-9328568"><label class="task-list-item-label" for="task-item-9328568"> 点击产生星星</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-258852"><label class="task-list-item-label" for="task-item-258852"> 一个拖尾效果</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-6835382"><label class="task-list-item-label" for="task-item-6835382"> 粒子吸引效果</label></li>
+</ul>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[anaconda]]></title>
+        <id>https://gridea.github.io/post/anaconda/</id>
+        <link href="https://gridea.github.io/post/anaconda/">
+        </link>
+        <updated>2021-04-18T04:49:07.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="环境">环境</h2>
+<p><a href="https://www.cnblogs.com/littlepage/p/11961208.html">参考原文：</a></p>
+<p>添加清华镜像</p>
+<pre><code class="language-python">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+
+</code></pre>
+<h2 id="更改目录">更改目录</h2>
+<p>改配置文件：</p>
+<pre><code class="language-python">jupyter notebook --generate-config
+</code></pre>
+<p>可以看到jupyter_notebook_config.py文件路径，打开该文件：</p>
+<figure data-type="image" tabindex="1"><img src="https://img2018.cnblogs.com/blog/94829/201901/94829-20190110114650373-1815757905.png" alt="img" loading="lazy"></figure>
+<p>查找参数c.NotebookApp.notebook_dir并设置其路径，设置完成后并保存退出，如上图所示。</p>
+<p>将<br>
+#c.NotebookApp.notebook_dir = ''<br>
+改为<br>
+c.NotebookApp.notebook_dir = 'your path'<br>
+我改成了我自己的路径<br>
+c.NotebookApp.notebook_dir = 'E:\PY'<br>
+我已经将文件建好并创建了一个txt文件</p>
+<p>注意：第一、文件夹必须先创建好，不然会jupyter初始化时会找不到目录<br>
+第二、要取消注释，c前面的#要去掉。<br>
+第三、要注意文件名不可以是数字</p>
+<p>保存并关闭。<br>
+现在可以在Anaconda Navigator中打开</p>
+<p>希望用快捷方式打开</p>
+<p>在jupyter notebook快捷方式的属性里要删掉%USERPROFILE%<br>
+%USERPROFILE%会使得jupyter打开固定地址。</p>
+<p>成功打开</p>
+<p><a href="https://blog.csdn.net/weixin_36292173/article/details/76209839">原文链接</a></p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="环境">环境</h2>
+<p><a href="https://www.cnblogs.com/littlepage/p/11961208.html">参考原文：</a></p>
+<p>添加清华镜像</p>
+<pre><code class="language-python">conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+
+</code></pre>
+<h2 id="更改目录">更改目录</h2>
+<p>改配置文件：</p>
+<pre><code class="language-python">jupyter notebook --generate-config
+</code></pre>
+<p>可以看到jupyter_notebook_config.py文件路径，打开该文件：</p>
+<figure data-type="image" tabindex="1"><img src="https://img2018.cnblogs.com/blog/94829/201901/94829-20190110114650373-1815757905.png" alt="img" loading="lazy"></figure>
+<p>查找参数c.NotebookApp.notebook_dir并设置其路径，设置完成后并保存退出，如上图所示。</p>
+<p>将<br>
+#c.NotebookApp.notebook_dir = ''<br>
+改为<br>
+c.NotebookApp.notebook_dir = 'your path'<br>
+我改成了我自己的路径<br>
+c.NotebookApp.notebook_dir = 'E:\PY'<br>
+我已经将文件建好并创建了一个txt文件</p>
+<p>注意：第一、文件夹必须先创建好，不然会jupyter初始化时会找不到目录<br>
+第二、要取消注释，c前面的#要去掉。<br>
+第三、要注意文件名不可以是数字</p>
+<p>保存并关闭。<br>
+现在可以在Anaconda Navigator中打开</p>
+<p>希望用快捷方式打开</p>
+<p>在jupyter notebook快捷方式的属性里要删掉%USERPROFILE%<br>
+%USERPROFILE%会使得jupyter打开固定地址。</p>
+<p>成功打开</p>
+<p><a href="https://blog.csdn.net/weixin_36292173/article/details/76209839">原文链接</a></p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[hexo 使用]]></title>
+        <id>https://gridea.github.io/post/hexo-shi-yong/</id>
+        <link href="https://gridea.github.io/post/hexo-shi-yong/">
+        </link>
+        <updated>2021-04-18T04:48:08.000Z</updated>
+        <summary type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="helow-hexo">Helow hexo</h2>
+<pre><code># 上传：
+hexo clean &amp;&amp; hexo g &amp;&amp; hexo d
+# 本地检查
+hexo s -p 5555
+hexo g -d
+</code></pre>
+]]></summary>
+        <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="helow-hexo">Helow hexo</h2>
+<pre><code># 上传：
+hexo clean &amp;&amp; hexo g &amp;&amp; hexo d
+# 本地检查
+hexo s -p 5555
+hexo g -d
+</code></pre>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[模板]]></title>
+        <id>https://gridea.github.io/post/mo-ban/</id>
+        <link href="https://gridea.github.io/post/mo-ban/">
+        </link>
+        <updated>2021-04-18T04:47:33.000Z</updated>
+        <summary type="html"><![CDATA[<h2 id="标题">标题</h2>
+<p>预览分隔符</p>
+]]></summary>
+        <content type="html"><![CDATA[<h2 id="标题">标题</h2>
+<p>预览分隔符</p>
 ]]></content>
     </entry>
 </feed>

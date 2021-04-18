@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" >
+
+<title>hexo 使用 | hamsali的小站</title>
+<meta name="description" content="记录成长历程">
+
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="shortcut icon" href="https://gridea.github.io/favicon.ico?v=1618722106091">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+<link rel="stylesheet" href="https://unpkg.com/papercss@1.6.1/dist/paper.min.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
+<link rel="stylesheet" href="https://gridea.github.io/styles/main.css">
+
+
+<script src="https://cdn.bootcss.com/highlight.js/9.12.0/highlight.min.js"></script>
+
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+
+  </head>
+  <body>
+  
+    <nav class="navbar border fixed split-nav">
+  <div class="nav-brand">
+    <h3><a href="https://gridea.github.io">hamsali的小站</a></h3>
+  </div>
+  <div class="collapsible">
+    <input id="collapsible1" type="checkbox" name="collapsible1">
+    <button>
+      <label for="collapsible1">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </label>
+    </button>
+    <div class="collapsible-body">
+      <ul class="inline">
+        
+          <li>
+            
+              <a href="/" class="menu">
+                首页
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/archives" class="menu">
+                归档
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/tags" class="menu">
+                标签
+              </a>
+            
+          </li>
+        
+          <li>
+            
+              <a href="/post/about" class="menu">
+                关于
+              </a>
+            
+          </li>
+        
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div id="top" class="row site">
+      <div class="sm-12 md-8 col">
+        <div class="paper">
+          <article class="article">
+            <h1>hexo 使用</h1>
+            <p class="article-meta">
+              2021-04-18
+              
+                <a href="https://gridea.github.io/tag/bcLTL670A/" class="badge success">
+                  经验分享
+                </a>
+              
+            </p>
+            
+              <img src="https://gridea.github.io/post-images/hexo-shi-yong.jpg" alt="hexo 使用">
+            
+            <div class="post-content">
+              <p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
+<h2 id="helow-hexo">Helow hexo</h2>
+<pre><code># 上传：
+hexo clean &amp;&amp; hexo g &amp;&amp; hexo d
+# 本地检查
+hexo s -p 5555
+hexo g -d
+</code></pre>
+<!-- more -->
+<h2 id="quick-start">Quick Start</h2>
+<h3 id="create-a-new-post">Create a new post</h3>
+<pre><code class="language-bash">$ hexo new &quot;My New Post&quot;
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p>
+<h3 id="run-server运行服务">Run server：运行服务</h3>
+<pre><code class="language-bash">$ hexo server
+hexo s
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p>
+<h3 id="generate-static-files-生成静态文件">Generate static files: 生成静态文件</h3>
+<pre><code class="language-bash">$ hexo generate
+等同于:
+hexo g 
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p>
+<h3 id="deploy-to-remote-sites-布置站点">Deploy to remote sites： 布置站点</h3>
+<pre><code class="language-bash">$ hexo deploy
+hexo d
+
+</code></pre>
+<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
+<h2 id="说明文档"><a href="https://hexo.io/zh-cn/docs">说明文档</a></h2>
+<p>同步问题</p>
+<p>它的主上传目前为：master，如果有main 需要删除。</p>
+<p>目前不清楚main同步问题，设置其他的方式，不会同步。</p>
+<h2 id="注意点">注意点</h2>
+<p>操作完后记得保存。</p>
+<p>同步还是比较麻烦的，可能不熟悉。</p>
+<pre><code class="language-python">git config --global user.email &quot;1341372712@qq.com&quot;
+git config --global user.name &quot;hamsali&quot;
+
+# 先进入目录
+cd blog
+cd hamsali
+
+# 本地查看
+hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
+hexo g -s
+
+# 解锁限制,针对上传的限制
+git config --global http.sslVerify &quot;false&quot;
+
+# 清除，渲染，git同步
+hexo clean &amp;&amp; hexo g &amp;&amp; hexo d
+hexo g -d
+hexo d
+</code></pre>
+<h2 id="使用教程">使用教程</h2>
+<p>主要本地先测试，尽量一天最多提交两次，频率低些。</p>
+<p>进入对应目录：</p>
+<pre><code>cd C:\Users\Administrator\blog\hamsali
+</code></pre>
+<p>基本命令</p>
+<pre><code class="language-python">hexo new &quot;postName&quot; #新建文章
+hexo new page &quot;pageName&quot; #新建页面
+hexo generate #生成静态页面至public目录
+hexo server #开启预览访问端口（默认端口4000，'ctrl + c'关闭server）
+hexo deploy #将.deploy目录部署到GitHub
+hexo help  # 查看帮助
+hexo version  #查看Hexo的版本
+hexo deploy -g  #生成加部署
+hexo server -g  #生成加预览
+命令的简写
+hexo n == hexo new
+hexo g == hexo generate
+hexo s == hexo server
+hexo d == hexo deploy
+
+hexo clean &amp;&amp; hexo g &amp;&amp; hexo s
+# 访问本地端口浏览
+hexo d
+# 没啥问题后，上传
+</code></pre>
+<!-- more -->
+<p>有时候不用检查，可以直接上传代码。</p>
+<pre><code class="language-python">win+R
+cmd
+# 回车
+# 进入自己的目录中
+cd C:\Users\Administrator\blog\hamsali
+# 解锁限制：
+git config --global http.sslVerify &quot;false&quot;
+hexo clean &amp;&amp; hexo g -d
+
+hexo g &amp;&amp; hexo d
+
+hexo g -d
+# 访问本地端口浏览
+# 没啥问题后，上传
+</code></pre>
+<h2 id="end-网站链接">end-网站链接：</h2>
+<p><a href="https://github.com/hamsali">我的github</a> ，<a href="https://hamsali.github.io/">github博客网址</a> ，<a href="https://coding-pages-bucket-3532535-8446498-16212-575956-1258136024.cos-website.ap-hongkong.myqcloud.com">coding博客网址</a> ，<a href="http://localhost:4000">本地访问</a> ，</p>
+
+            </div>
+          </article>
+        </div>
+        <div class="paper" data-aos="fade-in">
+          
+            <div class="next-post">
+              <div class="next">
+                下一篇
+              </div>
+              <a href="https://gridea.github.io/post/mo-ban/">
+                <h3 class="post-title">
+                  模板
+                </h3>
+              </a>
+            </div>
+          
+        </div>
+        
+      </div>
+
+      <div class="sm-12 md-4 col sidebar">
+  <div class="paper info-container">
+    <img src="https://gridea.github.io/images/avatar.png?v=1618722106091" class="no-responsive avatar">
+    <div class="text-muted">记录成长历程</div>
+    <div class="social-container">
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      最新文章
+    </div>
+    <div class="row">
+      <ul>
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/gong-zuo/">工作</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/gong-ju-chi/">工具池</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/cun-zai-de-wen-ti/">存在的问题</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/next-zhu-ti/">next 主题</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/yan-jiu-sheng-bi-ji/">研究生笔记</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/wen-jian-guan-li-ji-qiao/">文件管理技巧</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/wang-zhan-te-xiao/">网站特效</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/anaconda/">anaconda</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/hexo-shi-yong/">hexo 使用</a>
+            </li>
+          
+        
+          
+            <li>
+              <a href="https://gridea.github.io/post/mo-ban/">模板</a>
+            </li>
+          
+        
+          
+        
+          
+        
+      </ul>
+    </div>
+  </div>
+  <div class="paper">
+    <div class="sidebar-title">
+      标签列表
+    </div>
+    <div class="row">
+      
+        <a href="https://gridea.github.io/tag/wwf0GlN9E/" class="badge secondary">
+          日常
+        </a>
+      
+        <a href="https://gridea.github.io/tag/bcLTL670A/" class="badge secondary">
+          经验分享
+        </a>
+      
+        <a href="https://gridea.github.io/tag/6IdEHxS2n/" class="badge success">
+          遇到的坑
+        </a>
+      
+        <a href="https://gridea.github.io/tag/ZKWWffrUE/" class="badge secondary">
+          next主题
+        </a>
+      
+        <a href="https://gridea.github.io/tag/5kqlgsszX/" class="badge warning">
+          遇到的问题
+        </a>
+      
+        <a href="https://gridea.github.io/tag/Zu37xgsOX/" class="badge ">
+          Gridea
+        </a>
+      
+    </div>
+  </div>
+  <div class="paper">
+    Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | <a class="rss" href="https://gridea.github.io/atom.xml" target="_blank">RSS</a>
+  </div>
+</div>
+
+
+    </div>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+<script type="application/javascript">
+
+AOS.init();
+
+hljs.initHighlightingOnLoad()
+
+</script>
+
+
+
+
+  </body>
+</html>
